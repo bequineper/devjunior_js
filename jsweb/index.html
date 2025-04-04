@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>cadastro</h1>
+    <form >
+        
+        <label> digite seu nome:</label>
+        <input type="text" id="nome">
+        
+        <label> digite sua senha:</label>
+        <label> a senha deve ter no minimo 7 caracteres</label>
+        <p>Comprimento da senha:
+             <span id="tamanho">
+                
+             </span>
+        </p>
+        <input onkeyup="valida()" type="text" id="senha">
+        <span id="mensagem"></span>
+        <button type="button">enviar</button>
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
